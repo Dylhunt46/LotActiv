@@ -1,11 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     text-align: center;
 }
 
 section {
     background-color: rgb(109, 202, 202);
+    margin-bottom: 1rem;
 }
 
 article {
     background-color: rgb(10, 237, 237);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
+
+.modality {
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
 }
